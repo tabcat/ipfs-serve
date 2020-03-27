@@ -57,7 +57,7 @@ const ipfsOptions = {
 }
 
 const ipfsBundle = (options) =>
-  IPFS.create({ ...ipfsOptions, config: { Addresses: { Swarm: ['/ip4/127.0.0.1/tcp/4002'] } }, ...options })
+  IPFS.create({ config: { Addresses: { Swarm: [] } }, ...options })
 
 module.exports = {
   ipfsBundle,
