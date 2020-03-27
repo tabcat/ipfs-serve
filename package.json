@@ -1,6 +1,6 @@
 {
   "name": "@tabcat/ipfs-serve",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "host a static directory over http and ipfs",
   "main": "src/index.js",
   "bin": "src/cli.js",
